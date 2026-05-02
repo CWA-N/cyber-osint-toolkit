@@ -1,0 +1,2 @@
+pip install pyqt5 requests aiohttp python-whois dnspython phonenumbers ipwhois
+pip install pyinstaller
