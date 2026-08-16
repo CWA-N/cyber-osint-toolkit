@@ -150,79 +150,18 @@ __pycache__/
 * 🎨 **PyQt5 / Desktop UI**
 * 🔐 **Security & OSINT APIs**
 
----
 
-## 📁 Suggested Project Structure
-
-```text
-cyber-osint-toolkit/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── config/
-│   └── settings.py
-│
-├── core/
-│   ├── scanner.py
-│   ├── async_engine.py
-│   └── result_parser.py
-│
-├── modules/
-│   ├── ip_intelligence.py
-│   ├── username_search.py
-│   ├── domain_analysis.py
-│   ├── shodan_intelligence.py
-│   └── virustotal_intelligence.py
-│
-├── ui/
-│   ├── main_window.py
-│   └── styles.py
-│
-└── utils/
-    ├── logger.py
-    └── helpers.py
-```
-
----
 
 ## 💻 Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/cyber-osint-toolkit.git
+git clone https://github.com/CWA-N/cyber-osint-toolkit.git
 cd cyber-osint-toolkit
 ```
 
-Create a virtual environment:
 
-```bash
-python -m venv venv
-```
-
-Activate it on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the toolkit:
-
-```bash
-python app.py
-```
-
----
 
 ## 🎯 Example Use Cases
 
